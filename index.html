@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <h1>Измерение расстояния между ноздрями бегемотов</h1>
+        
+        <img src="https://avatanplus.com/files/resources/original/577d1c7a30ae1155c0b73d57.png" />
+        <p>Какой у вас бегемот?</p>
+        <form>
+            <div class="form__item">
+                <label>Вес</label> 
+                <input type="text" id="weight" />
+            </div>
+            <div class="form__item">
+                <label>Длина бегемота</label>
+                <input type="text" id="length" />
+            </div>
+            <div class="form__item">
+                <label>Ширина рта</label>
+                <input type="text" id="mouth" />
+            </div>
+            <div class="form__item">
+                <label>Возраст</label>
+                <select id="age">
+                    <option value="young">Маленький</option>
+                    <option value="middle">Средний</option>
+                    <option value="old">Большой</option>
+                </select>
+            </div>
+            <div>
+                <button type="button" id="count">Рассчитать</button>
+            </div>
+        </form>
+        <div class="result">
+            <h2>Результат</h2>
+            <p>Расстояние между ноздрями вашего бегемота <span id="nose__length"></span> см!</p>
+        </div>
+        <div class="authors">
+            <p>Автор идеи: Алексей Пашков</p>
+            <p>Разработчик: Дмитрий Корнев</p>
+            <p>Подбор картинок: Иван Галеев</p>
+        </div>
+        <script src="nose.js"></script>
+    </body>
+</html>
